@@ -10,7 +10,7 @@ public class Mmn14StudentTester {
 				{true, 	true, 	true, 	false}
 		};
 		System.out.println("************ test Q1 - size START *************");
-
+/*
 		int res = Ex14.size(a, 0, 0);
 		System.out.println("\nrunning size(a, 0, 0); expected 3, got " + res);
 
@@ -24,17 +24,17 @@ public class Mmn14StudentTester {
 		System.out.println("\nrunning size(a, 4, 0); expected 5, got " + res);
 
 		System.out.println("\n************ test Q1 - size END *************");
+*/
 
-/*
-		System.out.println("\n************ test Q2 - isPermutation START *************");
-		int [] a1 = {1, 2, 3, 4};
-		int [] b1 = {1, 2, 3, 4};
-		boolean ans = Ex14.isPermutation(a1, b1);
-		System.out.println("\nrunning isPermutation{a1, b1}; expected true, 	got " + ans);
+//		System.out.println("\n************ test Q2 - isPermutation START *************");
+//		int [] a1 = {1, 2, 3, 4};
+//		int [] b1 = {1, 2, 3, 4};
+//		boolean ans = Ex14.isPermutation(a1, b1);
+//		System.out.println("\nrunning isPermutation{a1, b1}; expected true, 	got " + ans);
 
 		int [] a2 = {1, 2, 3, 4};
 		int [] b2 = {1, 2, 3, 2};
-		ans = Ex14.isPermutation(a2, b2);
+		boolean ans = Ex14.isPermutation(a2, b2);
 		System.out.println("\nrunning isPermutation{a2, b2}; expected false,	got " + ans);
 
 		int [] a3 = {1, 2, 3, 4};
@@ -54,7 +54,7 @@ public class Mmn14StudentTester {
 
 
 		System.out.println("\n************ test Q2 - isPermutation END *************");
-*/
+
 	}
 
 }
